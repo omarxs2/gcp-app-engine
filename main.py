@@ -9,7 +9,7 @@ app = flask.Flask(__name__)
 def hello():
     """Return a friendly HTTP greeting."""
     who = flask.request.args.get("who", "World")
-    return f"Omar Suleiman {who}!\n"
+    return f"Hello from Omar Suleiman loacl repo to {who}!\n"
 
 
 if __name__ == "__main__":
